@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Task1.Entites.Drink>
+
+<!DOCTYPE html>
+<html>	
+	<head></head>
+	<body>
+
+	@foreach(var item in Model)
+	{
+		<div>	
+			<div>
+				<span>	User Id :  @item.Id</span>
+			</div>
+			<h1>
+				Name: @item.Name
+			</h1>
+			<h1>
+				Price: @item.Price
+			</h1>
+
+
+		</div>
+	}
+
+	</body>
+
+
+
+
+</html>
